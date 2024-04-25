@@ -135,3 +135,18 @@ button:hover span{
 button:hover{
     border: none;
 }
+.logo{
+    position: absolute;
+    height: auto;
+    left: 10px;
+    width: 110px;
+}
+.lemon{
+    left: 10px;
+    position: absolute;
+}
+.lava{
+    left:400px;
+    position:relative;
+    bottom: -100px;
+}
