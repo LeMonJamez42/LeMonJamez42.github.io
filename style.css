@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 
 }
+
 body {
     margin: 0px;
     background-color: rgb(56, 114, 238);
 }
+
 main {
     margin-left: 20px;
     margin-right: 20px;
@@ -15,10 +17,12 @@ main {
     margin-top: 40px;
     color: white;
 }
+
 h1 {
     text-align: center;
 }
-.navbar ul{
+
+.navbar ul {
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
     padding: 0px;
@@ -26,21 +30,25 @@ h1 {
     overflow: hidden;
 
 }
-.navbar a{
+
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 20px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: hsl(0, 0%, 10%)
 }
-.navbar li{
+
+.navbar li {
     float: right;
 
 }
-.content{
+
+.content {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -48,16 +56,19 @@ h1 {
     text-align: center;
     color: #fff;
 }
-.content h1{
+
+.content h1 {
     font-size: 70px;
     margin-top: 80px;
 }
-.content p{
+
+.content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
-button{
+
+button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -72,7 +83,7 @@ button{
     overflow: hidden;
 }
 
-span{
+span {
     background: #2612dd;
     height: 100%;
     width: 0;
@@ -83,28 +94,32 @@ span{
     z-index: -1;
     transition: 0.5s
 }
-button:hover span{
+
+button:hover span {
     width: 100%;
 }
 
-button:hover{
+button:hover {
     border: none;
 }
-.logo{
+
+.logo {
     position: absolute;
     height: auto;
     left: 10px;
     width: 50px;
     top: 3px;
-    
+
 }
-.lemon{
+
+.lemon {
     left: 10px;
     position: absolute;
 }
-.lava{
-    left:400px;
-    position:relative;
+
+.lava {
+    left: 400px;
+    position: relative;
     bottom: -100px;
 }
 
@@ -126,24 +141,24 @@ hr {
 }
 
 /*.item p {*/
-    /* inline-block keeps left text on the left and right text on the right */
-    /*display: inline-block;
+/* inline-block keeps left text on the left and right text on the right */
+/*display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
 }*/
 .container {
-    display: inline-block; 
+    display: inline-block;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
-   
+
 img {
-     max-width: 100%;
-     max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
-   
+
 .text {
-     font-size: 40px;
-     font-family: Arial, Helvetica, sans-serif;
-   }
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
