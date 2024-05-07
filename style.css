@@ -140,13 +140,6 @@ hr {
     width: 25%;
 }
 
-/*.item p {*/
-/* inline-block keeps left text on the left and right text on the right */
-/*display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}*/
 .container {
     display: inline-block;
     grid-template-columns: 1fr 1fr 1fr;
