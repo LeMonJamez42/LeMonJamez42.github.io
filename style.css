@@ -68,41 +68,6 @@ h1 {
     line-height: 25px;
 }
 
-button {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #2612dd;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-span {
-    background: #2612dd;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s
-}
-
-button:hover span {
-    width: 100%;
-}
-
-button:hover {
-    border: none;
-}
-
 .logo {
     position: absolute;
     height: auto;
@@ -112,46 +77,9 @@ button:hover {
 
 }
 
-.lemon {
-    left: 10px;
-    position: absolute;
-}
-
-.lava {
-    left: 400px;
-    position: relative;
-    bottom: -100px;
-}
-
 hr {
     height: 2px;
     background-color: darkgray;
     border-color: darkgrey;
     margin: 30px;
-}
-
-.lefttext {
-    text-align: left;
-    width: 75%;
-}
-
-.righttext {
-    text-align: right;
-    width: 25%;
-}
-
-.container {
-    display: inline-block;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.text {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
 }
