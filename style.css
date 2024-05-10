@@ -51,7 +51,7 @@ h1 {
 .content {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
@@ -82,4 +82,19 @@ hr {
     background-color: darkgray;
     border-color: darkgrey;
     margin: 30px;
+}
+.test {
+    margin-top: 500px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 400px;
+}
+.test h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
