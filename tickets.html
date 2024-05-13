@@ -27,10 +27,10 @@
             <p class="general">GA One-Day Pass</p><p class="price">$100.00</p>
           </article>
           <article class="item">
-            <p class="general">GA Full Experience Pass </p><p class="price">$120.00</p>
+            <p class="general">GA Full Experience Pass</p><p class="price">$120.00</p>
           </article>
           <article class="item">
-            <p class="general">GA Full Experience + Camping</p><p class="price">$150.00</p>
+            <p class="general">GA Full Experience + Camping Pass</p><p class="price">$150.00</p>
           </article>
         </section>
         <section>
@@ -47,6 +47,56 @@
           </article>
         </section>
     </main>
-</body>
+
+    <h1 id='title'><br><br>Purchase Tickets</h1>
+    <p id='description'>Fill out this form to buy your tickets</p>
+    <form id='survey-form'>
+      <fieldset>
+      <label id='name-label' for='name'>Enter your name:
+      <input placeholder='(first and last name)' id='name' type='text' required/>
+      </label>
+      <label id='email-label' for='email'>Enter your email:
+      <input placeholder='(email address)' id='email' type='email' required/>
+      </label>
+      <label id='number-label' for='number'>Enter your age:
+      <input placeholder='(you must be over 18 to enter)' id='number' type='number' min='18' max='150' required/>
+      </label>
+      
+        
+      <label for='dropdown'>Which pass do you want to buy?
+        <select id='dropdown'>
+          <option value=''>(select one)</option>
+          <option value='1'>GA Pass</option>
+          <option value='2'>VIP Pass</option>
+        </select>
+        <legend>What kind of pass do you want?</legend>
+        <label for='oneday'>
+          <input id='oneday' class='inline' type='radio' value='1' name='passtype' checked/>One-Day
+          </label>
+          <label for='fullexperience'>
+          <input id='fullexperience' class='inline' type='radio' value='2' name='passtype'/>Full Experience
+          </label>
+          <label>
+          <input  class='inline'  type='radio' value='3' name='passtype'/>Camping
+        </label>
+        <label >Bonus Items:
+        <label for='checkbox'>
+          <input value='1' class='inline' id='checkbox' type='checkbox' />Sticker
+          
+        </label>
+        <label for='checkbox'>
+          <input value='2' class='inline' id='checkbox' type='checkbox' />Water Bottle
+          
+        </label>
+        <label for='checkbox'>
+          <input value='3' class='inline' id='checkbox' type='checkbox' />Magnet
+        </label>
+        <label for='comments'>Do you have any special requests?
+          <textarea id='comments' rows="3" cols="30" placeholder="Additional comments..."></textarea>
+        </label>
+        <input id='submit' type="submit" value="Submit" />
+      </fieldset>
+    </form>
+</body><br><br>
 
 </html>
